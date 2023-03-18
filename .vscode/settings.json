@@ -1,0 +1,6 @@
+{
+	"java.project.referencedLibraries": [
+		"lib/**/*.jar",
+		"/Users/jasonzhu/UserApplications/JavaAPIs/xstream-1.4.19.jar"
+	]
+}

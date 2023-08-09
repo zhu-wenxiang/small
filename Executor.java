@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Executor {
 
@@ -18,5 +19,11 @@ public class Executor {
             // arr.remove("111");
         }
         System.out.println(arr.toString());
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("请输入一句话或一个单词");
+        String str=scanner.next();
+        System.out.println(str);
+        System.out.println("请输入一句话");
+        scanner.nextLine();
     }
 }

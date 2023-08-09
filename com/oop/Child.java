@@ -8,7 +8,7 @@ public class Child extends Base{
     public static void main(String[] args) {
         Child child=new Child();
         
-        Class<Child> class1  = child.getClass();
+        //Class<Child> class1  = child.getClass();
         Field[] fields = child.getClass().getFields();
         if(fields!=null && fields.length!=0){
             for (Field field : fields) {

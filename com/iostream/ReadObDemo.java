@@ -10,7 +10,7 @@ public class ReadObDemo {
         try (
 
             FileInputStream fos=new FileInputStream("./com/iostream/objects.dat");
-            new DataOutputStream(fos)
+            //new DataOutputStream(fos);
 
 
         ){

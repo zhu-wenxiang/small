@@ -29,22 +29,6 @@ public class ShoppingList {
                 userInput[k] = in.nextInt();
             }
         System.out.println(Arrays.toString(userInput));
-        //Arrays.toString(userInput);
-//        for (int i = 2; i < userInput.length; i++) {
-//            user[(i - 2) / 3][(i - 2) % 3] = userInput[i];
-//        }
-//        Arrays.toString(user);
 
-        //sort the satisCost array
-
-        //     Arrays.sort(satisCost);
-        //     int rr=0;
-        //     while (totalCost < budget) {
-        //        if(satisCost[rr][2]>0)
-        //             continue;
-        //         total+=user[rr][0];
-        //         totalCost+=satisCost[rr][1];
-        //     }
-        //     System.out.println(total);
     }
 }
